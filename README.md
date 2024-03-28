@@ -1,1 +1,0 @@
-# bulk_platform_docs
