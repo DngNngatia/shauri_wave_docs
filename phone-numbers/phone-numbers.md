@@ -44,6 +44,10 @@ Authorization: Bearer your_bearer_token_here
 Host: https://developer.shauriwave.com/integration
 Content-Type: application/json
 ```
+| Parameter | Required | Description                                                     |
+|-----------|----------|-----------------------------------------------------------------|
+| `waba_id` | Yes      | The ``waba_id`` of one of your already onboarded phone numbers. |
+
 #### sample response
 ````json
 {

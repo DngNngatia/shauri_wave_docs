@@ -65,6 +65,10 @@ Authorization: Bearer your_bearer_token_here
 Host: https://developer.shauriwave.com/integration
 Content-Type: application/json
 ```
+| Parameter | Required | Description                                           |
+|-----------|----------|-------------------------------------------------------|
+| `contact_group_uuid`   | Yes      | The contact group uuid of one of your contact groups. |
+
 #### sample response
 ````json
 {

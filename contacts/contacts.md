@@ -77,9 +77,11 @@ Content-Type: application/json
   "limit": 10
 }
 ```
-| Parameter | Required | Description                        |
-|-----------|----------|------------------------------------|
-| `limit`   | No       | Limit the no of results to return. |
+| Parameter | Required | Description                                           |
+|-----------|----------|-------------------------------------------------------|
+| `limit`   | No       | Limit the no of results to return.                    |
+| `contact_group_uuid`   | Yes      | The contact group uuid of one of your contact groups. |
+
 
 #### sample response
 ````json
@@ -100,6 +102,10 @@ Authorization: Bearer your_bearer_token_here
 Host: https://developer.shauriwave.com/integration
 Content-Type: application/json
 ```
+| Parameter | Required | Description                                          |
+|-----------|----------|------------------------------------------------------|
+| `contact_uuid`   | Yes      | The contact uuid of one of your contact groups. |
+
 #### sample response
 ````json
 {
@@ -118,6 +124,10 @@ Authorization: Bearer your_bearer_token_here
 Host: https://developer.shauriwave.com/integration
 Content-Type: application/json
 ```
+| Parameter | Required | Description                                          |
+|-----------|----------|------------------------------------------------------|
+| `contact_uuid`   | Yes      | The contact uuid of one of your contact groups. |
+
 #### sample response
 ````json
 {

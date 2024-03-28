@@ -29,6 +29,8 @@ Content-Type: application/json
 | `limit`   | No       | Limit the no of results to return.                    |
 | `id`      | No       | Pass this to get a specific message template by id.   |
 | `name`    | No       | Pass this to get a specific message template by name. |
+| `waba_id` | Yes      | The ``waba_id`` of one of your already onboarded phone numbers. |
+
 
 
 
