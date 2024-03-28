@@ -67,7 +67,8 @@ Content-Type: application/json
 #### sample payload
 ```json
 {
-  "limit": 10
+  "limit": 10,
+  "waba_id": "115393944782556"
 }
 ```
 | Parameter | Required | Description                                                                                 |
