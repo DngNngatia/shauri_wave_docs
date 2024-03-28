@@ -67,13 +67,13 @@ Content-Type: application/json
 #### sample payload
 ```json
 {
-  "limit": 10,
+  "limit": 100,
   "waba_id": "115393944782556"
 }
 ```
 | Parameter | Required | Description                                                                                 |
 |-----------|----------|---------------------------------------------------------------------------------------------|
-| `limit`   | No       | Limit the no of results to return.                                                          |
+| `limit`   | No       | Limit the no of messages to return.                                                         |
 | `waba_id` | Yes      | The ``waba_id`` linked to the currently conversation your are trying to access it messages. |
 | `chat_id` | Yes      | The ``chat_id`` of one of your existing conversations refer to get a list of conversations. |
 
