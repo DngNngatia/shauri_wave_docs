@@ -1,13 +1,13 @@
 # Authentication
 Shauri Wave uses OAuth2 as an authorization layer. As such, every API request must contain an Authorize HTTP header with a token. Access tokens are app and user-specific.
 
-To be able to work with our integration API's you will need to already have created an account with [Shauri Wave](https://shauriwave.com). If you don't have an account please visit this link to get started. [Create an accoun on Shauri Wave](https://app.shauriwave.com)
+To be able to work with our integration API's you will need to already have created an account with [Shauri Wave](https://shauriwave.com). If you don't have an account please visit this link to get started. [Create an account on Shauri Wave](https://app.shauriwave.com)
 
 
 After successfully registering an account, ensure to link your phone number to gain access to all features offered by Shauri Wave. Read this blog on how to onboard a phone number on WhatsApp cloud API on Shauri Wave. [Onboard a phone number on WhatsApp cloud API on Shauri Wave](https://shauriwave.com/blogs/onboard-a-phone-number-on-whatsapp-cloud-api)
 
 
-# Authentication token
+### Authentication token
 Follow the following steps to access you developer access token.
 - Login to your app dashboard [Shauri Wave](https://app.shauriwave.com)
 - From you side menu navigation, click on [Account Settings](https://app.shauriwave.com/account-settings)

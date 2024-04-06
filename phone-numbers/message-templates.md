@@ -1,4 +1,4 @@
-# Contact Groups
+# Message Templates
 
 [[toc]]
 
@@ -6,10 +6,10 @@ Message templates are interactive messages designed for sending to your customer
 
 Refer below to a documentation on how to manage your ``message templates`` via our REST API's.
 
-### Create a contact
+## Create a message template
 Please use our [dashboard](https://app.shauriwave.com/phone-numbers) to create a message template or your developer console.
 
-### List your message templates
+## List your message templates
 
 ```http
 GET /message-templates/{{waba_id}}

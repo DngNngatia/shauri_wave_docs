@@ -4,7 +4,7 @@
 
 Refer below to a documentation on how to manage you ``wallet`` via our REST API's.
 
-### Get your account balance
+## Get your account balance
 
 ```http
 GET /wallet-balance
@@ -20,7 +20,7 @@ Content-Type: application/json
 }
 ````
 
-### Get your wallet transactions
+## Get your wallet transactions
 
 ```http
 GET /wallet-transactions

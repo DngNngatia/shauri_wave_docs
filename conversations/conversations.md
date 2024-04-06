@@ -4,7 +4,7 @@
 
 Refer below to a documentation on how to manage your team inbox ``conversations`` via our REST API's.
 
-### Get a list of your conversations by phone number
+## Get a list of your conversations by phone number
 
 ```http
 GET /conversations/{{waba_id}}
@@ -56,7 +56,7 @@ Content-Type: application/json
 ]
 ````
 
-### Get a conversation messages
+## Get a conversation messages
 
 ```http
 GET /messages/{{chat_id}}

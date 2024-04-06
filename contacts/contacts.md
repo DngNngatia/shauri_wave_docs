@@ -4,7 +4,7 @@
 
 Refer below to a documentation on how to manage your ``contacts`` via our REST API's.
 
-### Create a contact
+## Create a contact
 ```http
 POST /contacts
 Authorization: Bearer your_bearer_token_here
@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 ````
 
-### List your contacts
+## List your contacts
 
 ```http
 GET /contacts
@@ -63,7 +63,7 @@ Content-Type: application/json
 ]
 ````
 
-### List your contacts by a contact group
+## List your contacts by a contact group
 
 ```http
 GET /contact-groups/{{contact_group_uuid}}/contacts
@@ -94,7 +94,7 @@ Content-Type: application/json
   }
 ]
 ````
-### Get a contact
+## Get a contact
 
 ```http
 GET /contacts/{{contact_uuid}}
@@ -116,7 +116,7 @@ Content-Type: application/json
 }
 ````
 
-### Delete a contact
+## Delete a contact
 
 ```http
 DELETE /contacts/{{contact_uuid}}
